@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ccadbd-bd6a-4265-8329-a7d8532c3b62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/authentication/authentication.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/user.context.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/authentication/authentication.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
       <workItem from="1652260889480" duration="4801000" />
       <workItem from="1652270936078" duration="49000" />
       <workItem from="1652271011137" duration="256000" />
-      <workItem from="1652346475227" duration="14376000" />
+      <workItem from="1652346475227" duration="23872000" />
     </task>
     <servers />
   </component>
