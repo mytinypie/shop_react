@@ -1,4 +1,4 @@
-import './checkout.styles.scss';
+import {DivCheckoutContainer, DivCheckoutHeader, DivHeaderBlock, SpanTotal} from "./checkout.styles";
 import {useContext} from "react";
 import {CartContext} from "../../contexts/cart.context";
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
@@ -7,40 +7,35 @@ const Checkout = ()=>{
     const { cartItems, cartPrice } = useContext(CartContext);
 
     return(
-        <div className='checkout-container'>
+        <DivCheckoutContainer>
 
-            {/*{cartItems.length > 0 ? (*/}
-
-                <div className='checkout-header'>
-                    <div className='header-block'>
+                <DivCheckoutHeader>
+                    <DivHeaderBlock>
                         <span>Product</span>
-                    </div>
-                    <div className='header-block'>
+                    </DivHeaderBlock>
+                    <DivHeaderBlock>
                         <span>Description</span>
-                    </div>
-                    <div className='header-block'>
+                    </DivHeaderBlock>
+                    <DivHeaderBlock>
                         <span>Quantity</span>
-                    </div>
-                    <div className='header-block'>
+                    </DivHeaderBlock>
+                    <DivHeaderBlock>
                         <span>Price</span>
-                    </div>
-                    <div className='header-block'>
+                    </DivHeaderBlock>
+                    <DivHeaderBlock>
                         <span>Remove</span>
-                    </div>
-                </div>
+                    </DivHeaderBlock>
+                </DivCheckoutHeader>
 
 
                     {cartItems.map((item)=>{
                         return <CheckoutItem key={item.id} cartItem={item} />
                     })}
 
-                    <span className="total"> Total: {cartPrice}$</span>
+                    <SpanTotal> Total: {cartPrice}$</SpanTotal>
 
 
-
-            {/*) : 'no products in the cart'}*/}
-
-        </div>
+        </DivCheckoutContainer>
     )
 }
 
